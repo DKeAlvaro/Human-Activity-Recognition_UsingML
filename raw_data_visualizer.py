@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from src.ml.config import CSV_DATA_PATH, SENSOR_COLUMNS
+from src.ml.config import SENSOR_COLUMNS
+
+CSV_DATA_PATH = 'data/merged_data.csv'
 
 st.set_page_config(
     page_title="Raw Sensor Data Visualizer",

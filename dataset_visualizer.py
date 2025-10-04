@@ -4,7 +4,9 @@ import pandas as pd
 import numpy as np
 
 from src.ml.data_loader import DataLoader
-from src.ml.config import CSV_DATA_PATH, WINDOW_SIZE, STEP, TEST_SIZE, SENSOR_COLUMNS
+from src.ml.config import WINDOW_SIZE, STEP, TEST_SIZE, SENSOR_COLUMNS
+
+CSV_DATA_PATH = 'data/merged_data.csv'
 
 
 st.set_page_config(
